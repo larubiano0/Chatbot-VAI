@@ -1,0 +1,72 @@
+{
+  "intents": [
+    {
+      "tag": "Saludo",
+      "patterns": [
+        "Hola",
+        "Buenos días",
+        "Buenas tardes",
+        "Buenas noches",
+        "Mucho gusto",
+        "Como estás?",
+        "Hey",
+        "Que más?"
+      ],
+      "responses": [
+        "Hola :-)",
+        "Hola, gracias por visitar",
+        "Hola, como te puedo ayudar?",
+        "Como vas? En que necesitas ayuda"
+      ]
+    },
+    {
+      "tag": "Despedida",
+      "patterns": ["Chao", "Hasta pronto", "Hasta luego", "Adios"],
+      "responses": [
+        "Adios, vuelve pronto!",
+        "Ten un buen día",
+        "Hasta luego, espero haber sido útil"
+      ]
+    },
+    {
+      "tag": "Agradecimiento",
+      "patterns": ["Gracias", "Muchas gracias", "Gracias por la ayuda"],
+      "responses": ["Me alegra ayudar!", "Cuando quieras!", "Fue un placer"]
+    },
+    {
+      "tag": "Servicios",
+      "patterns": [
+        "Que servicios tienen?",
+        "En que consiste VAI?",
+        "Para que sirve VAI?"
+      ],
+      "responses": [
+        "Vai es un app para facilitarnos la vida a todos, acerca a pasajeros con conductores en trayectos entre tu casa y la universidad"
+      ]
+    },
+    {
+      "tag": "Métodos de pago",
+      "patterns": [
+        "Aceptan tarjetas de crédito?",
+        "Puedo pagar con Mastercard?",
+        "Puedo pagar con Nequi",
+        "Puedo pagar con Visa",
+        "Solo aceptan efectivo?"
+      ],
+      "responses": [
+        "Aceptamos Nequi, tarjetas, efectivo y transferencias de la mayoría de bancos"
+      ]
+    },
+    {
+      "tag": "Chistoso",
+      "patterns": [
+        "Cuentame un chiste",
+        "Dime algo chistoso",
+        "Sabes algun chiste?"
+      ],
+      "responses": [
+        "4 ingenieros van en un auto, de repente deja de andar. Seguidamente, cada uno da su opinión: Ingeniero Químico: Lo más probable es que sea un problema en la composición de la nafta; Ingeniero Mecánico: Lo dudo, probablemente sea una falla en el motor causada por una pieza defectuosa; Ingeniero Industrial: O a lo mejor es un vehículo que no pasó por el control de calidad y algo no salió bien en la linea de montaje; Ingeniero en Sistemas: ¿Y si salimos y volvemos a entrar?"
+      ]
+    }
+  ]
+}
